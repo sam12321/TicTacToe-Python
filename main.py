@@ -21,11 +21,11 @@ def play_game():
 
   while(game_on):     # Loop until one of the player wins
 
-    take_input()
+    take_input()    # Calling input function
     
-    check_win()
+    check_win()     # calling check_win function
 
-    change_player()
+    change_player()  # calling change_player function
       
 
 # Funnction to take input from player
